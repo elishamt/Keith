@@ -18,7 +18,7 @@ const autostatusStatusLikeEmojis = process.env.STATUS_LIKE_EMOJIS || '💛,❤�
 const botPrefix = process.env.PREFIX || ".";
 const botAuthor = process.env.AUTHOR || "Mteule";
 const botexpiration = process.env.BOT_EXPIRATION_DATE || "11/03/2027";
-const botUrl = process.env.BOT_PIC || "https://drive.google.com/file/d/1qxZVcjKezYlMbEJYG_ZIV_nQVeVOgmdu/view?usp=drivesdk";
+const botUrl = process.env.BOT_PIC || "https://files.catbox.moe/9zqj7g.jpg";
 const botGurl = process.env.BOT_GURL || "https://github.com/elishamt/Keith.git";
 const botTimezone = process.env.BOT_TIMEZONE || "Africa/Nairobi";
 const botBotname = process.env.BOTNAME || "MR.PING-MD";
