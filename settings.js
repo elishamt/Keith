@@ -7,24 +7,24 @@ if (fs.existsSync('set.env')) {
 }
 
 const session = process.env.SESSION || '';
-const dev = process.env.OWNER_NUMBER || '254748387615';
+const dev = process.env.OWNER_NUMBER || '254112251725';
 
 const autostatusAutoviewStatus = process.env.AUTOVIEW_STATUS || 'true';
 const autostatusAutoLikeStatus = process.env.AUTOLIKE_STATUS || 'false';
 const autostatusAutoReplyStatus = process.env.AUTOREPLY_STATUS || 'false';
-const autostatusStatusReplyText = process.env.STATUS_REPLY_TEXT || '✅ Status Viewed By Keith Md';
+const autostatusStatusReplyText = process.env.STATUS_REPLY_TEXT || '✅ Status Viewed By Elisha Mteule';
 const autostatusStatusLikeEmojis = process.env.STATUS_LIKE_EMOJIS || '💛,❤️,💜,🤍,💙';
 
-const botPrefix = process.env.PREFIX || ".";
-const botAuthor = process.env.AUTHOR || "Keith";
+const botPrefix = process.env.PREFIX || "?";
+const botAuthor = process.env.AUTHOR || "Mteule";
 const botexpiration = process.env.BOT_EXPIRATION_DATE || "11/03/2027";
 const botUrl = process.env.BOT_PIC || "https://files.catbox.moe/9zqj7g.jpg";
 const botGurl = process.env.BOT_GURL || "https://github.com/Keithkeizzah/KEITH-MD";
 const botTimezone = process.env.BOT_TIMEZONE || "Africa/Nairobi";
-const botBotname = process.env.BOTNAME || "KEITH-MD";
-const botPackname = process.env.BOT_PACKNAME || "KEITH-MD";
+const botBotname = process.env.BOTNAME || "MR.PING-MD";
+const botPackname = process.env.BOT_PACKNAME || "MR.PING-MD";
 const botMode = process.env.BOT_MODE || "public";
-const botSessionName = process.env.BOT_SESSION_NAME || "keith-md";
+const botSessionName = process.env.BOT_SESSION_NAME || "mr.ping-md";
 
 const { Sequelize } = require('sequelize'); 
 const DATABASE_URL = process.env.DATABASE_URL || './database.db'; 
